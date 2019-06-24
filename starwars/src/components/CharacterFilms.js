@@ -4,6 +4,8 @@ const CharacterFilms = props =>{
 
     return(
 
+        <li>{props.film}</li>
+
 
     );
 };
