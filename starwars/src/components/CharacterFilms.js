@@ -6,7 +6,6 @@ const CharacterFilms = props =>{
 
         <li>{props.film}</li>
 
-
     );
 };
 
