@@ -23,6 +23,7 @@ render(){
             <p>Gender: {this.props.name.gender}</p>
             <p>birth_year: {this.props.name.birth_year}</p>
             <p>height: {this.props.name.height} |  mass:  {this.props.name.mass}</p>
+            <h3>films:</h3>
             <ul className="films-list">
                  {this.state.films.map( f => <CharacterFilms film={f} key={f} />)}
             </ul>
